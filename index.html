@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/master.css">
+</head>
+<body>
+  <main>
+    <form action="">
+      <h2>Address</h2>
+      <div class="row">
+        <input type="text" id="cep" placeholder="CEP" autofocus>
+        <img src="imagem/spinner.svg" alt="loading" class="hidden" id="loading">
+        <div id="cepError" class="hidden">
+          cep informado é invalido.
+        </div>
+      </div>
+      <div class="row">
+        <input type="text" id="street" placeholder="Rua">
+      </div>
+      <div class="row">
+        <input type="text" id="number" placeholder="Número">
+      </div>
+      <div class="row">
+        <input type="text" id="neighborhood" placeholder="Bairro">
+      </div>
+      <div class="row">
+        <input type="text" id="state" placeholder="Estado">
+      </div>
+      <div class="row">
+        <input type="text" id="city" placeholder="Cidade">
+      </div>
+    </form>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
